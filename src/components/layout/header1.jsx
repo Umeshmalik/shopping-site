@@ -19,7 +19,7 @@ const firstHeader = () => {
             </ul>
           </div>
           <div className="first_header_middle">
-            <p className="first_header_text">Free Shipping</p>
+            <p className="first_header_text">Gratis Versand ab 50 € in Deuthschland</p>
           </div>
           <div className="first_header_right"></div>
         </div>

@@ -13,14 +13,23 @@ const secondHeader = () => {
           <div className="second_header_left">
             <ul className="menu_links">
               <li>
-                <Link to="/collection" className="anchor_links">
-                  Collection
+                <Link to="/" className="anchor_links">
+                  HOME
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="anchor_links">
-                  {" "}
-                  About
+                <Link to="/collection" className="anchor_links">
+                  SHOP
+                </Link>
+              </li>
+              <li>
+                <Link to="/#" className="anchor_links">
+                  UBER UNS
+                </Link>
+              </li>
+              <li>
+                <Link to="/#" className="anchor_links">
+                  WERDE FRANCHISE-PARTNER
                 </Link>
               </li>
             </ul>
@@ -34,7 +43,7 @@ const secondHeader = () => {
             <ul className="second_header_icons">
               <li>
                 <a href="/" className="anchor_links">
-                  Seek{" "}
+                  Suchen{" "}
                   <FiSearch
                     size="25px"
                     style={{ verticalAlign: "text-bottom" }}
@@ -43,7 +52,7 @@ const secondHeader = () => {
               </li>
               <li>
                 <Link to="/cart" className="anchor_links">
-                  Shopping Cart{" "}
+                  Warenkorb{" "}
                   <BsCart
                     size="25px"
                     style={{ verticalAlign: "text-bottom" }}

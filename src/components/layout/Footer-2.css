@@ -1,5 +1,4 @@
 .second_footer_container{
-    height: 200px;
     display: flex;
 }
 
@@ -38,6 +37,7 @@
 .payment_icons ul{
     display: flex;
     vertical-align: top;
+    align-items: center;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -73,3 +73,15 @@
     margin: 0 10px 10px;
 }
 
+.whatsapp-logo{
+    position: sticky;
+    margin-top: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+    background-color: #1ad03f;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    right: 30px;
+}
