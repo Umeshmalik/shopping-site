@@ -1,15 +1,14 @@
-import { lazy } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-const FirstHeader = lazy( () => import("./components/layout/header1"));
-const SecondHeader = lazy( () => import("./components/layout/header2"));
-const FirstFooter = lazy( () => import("./components/layout/footer1"));
-const SecondFooter = lazy( () => import("./components/layout/footer2"));
-const Home = lazy( () => import("./pages/home"));
-const Collection = lazy( () => import("./pages/collection"));
-const Product = lazy( () => import("./pages/product"));
-const Cart = lazy( () => import("./pages/cart"));
-const About = lazy( () => import("./pages/about"));
+import FirstHeader from "./components/layout/header1";
+import SecondHeader from "./components/layout/header2";
+import FirstFooter from "./components/layout/footer1";
+import SecondFooter from "./components/layout/footer2";
+import Home from "./pages/home";
+import Collection from "./pages/collection";
+import Product from "./pages/product";
+import Cart from "./pages/cart";
+import About from "./pages/about";
 
 import ProductState from "./context/product-context/ProductState";
 import "./App.css";
