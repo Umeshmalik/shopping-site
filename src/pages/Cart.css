@@ -1,0 +1,33 @@
+.cart_container{
+    height: 240px;
+    overflow: auto;
+}
+
+.empty_cart_text{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.empty_cart_heading{
+    padding: 0 0 20px 0;
+}
+
+.empty_cart_heading h1{
+    line-height: 1.2;
+    font-family: "New York",Iowan Old Style,Apple Garamond,Baskerville,Times New Roman,Droid Serif,Times,Source Serif Pro,serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.empty_cart_para{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.empty_cart_para p{
+    font-size: 15px;
+    font-family: "poppins", sans-serif;
+    color: #171717;
+}
+

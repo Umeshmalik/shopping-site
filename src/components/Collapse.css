@@ -1,0 +1,35 @@
+
+.collapse_container button{
+    display: block;
+    position: relative;
+    list-style: none;
+    padding: 15px 30px 15px 0;
+    cursor: pointer;
+    font-weight: 600;
+    border: none;
+    background-color: white;
+}
+
+.closed{
+    display: none;
+}
+
+.open{
+    display: block;
+}
+
+.collaspe_button_container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+
+span img{
+    vertical-align: text-bottom;
+}
+
+.img_div{
+    align-self: center;
+}

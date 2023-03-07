@@ -1,0 +1,116 @@
+.second_header_container{
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 115px;
+    position: relative;
+    border-bottom: 1px solid #ecd6d1;
+
+}
+
+.second_header_innerContainer{
+    display: flex;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.second_header_left{
+    width: 30%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.menu_links{
+    display: flex;
+    vertical-align: top;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 15px;
+}
+
+.menu_links li{
+    margin: 0 10px 0 0;
+}
+
+.menu_links li a{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    white-space: nowrap;
+    position: relative;
+    transition: opacity .35s cubic-bezier(.55,.03,.37,.96),transform .35s cubic-bezier(.55,.03,.37,.96);
+}
+
+
+.menu_links li a::before{
+    content: "";
+    position: absolute;
+    bottom: 16px;
+    background-color: currentColor;
+    height: 2px;
+    transition: transform .3s;
+    z-index: 20;
+    left: 18px;
+    width: calc(100% - 36px);
+    will-change: transform;
+    transform: scaleX(0);
+}
+
+.menu_links li a:hover::before{
+    transform: scaleX(1);
+    color: inherit;
+}
+
+
+.anchor_links{
+    color: black;
+    font-size: 14px;
+    font-family: "poppins", sans-serif;
+    padding: 22px 18px;
+    text-decoration: none;
+}
+
+.second_header_middle{
+    width: 40%;
+    text-align: center;
+}
+.second_header_text{
+    color: white;
+    font-size: 12px;
+    font-family: "poppins", sans-serif;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.second_header_right{
+    width: 30%;
+}
+
+.second_header_icons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.second_header_icons li{
+    margin: 0 10px 0 0;
+    list-style-type: none;
+}
+
+
+
+.search{
+    font-size: 12px;
+    font-family: "poppins", sans-serif;
+
+}
+
+.cart{
+    font-size: 12px;
+    font-family: "poppins", sans-serif;
+
+}
